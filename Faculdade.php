@@ -52,7 +52,7 @@ class Nota{
         else if($media >= 7){
             echo "\nSua media foi: " . $media."\n" ."Parabens, você está Aprovado!\n\n";
         }
-        elseif($media > 4)
+        elseif($media < 4)
             echo "\nSua media foi: " . $media."\n" ."Parabens, você está Reprovado!\n\n";
     }
 }
